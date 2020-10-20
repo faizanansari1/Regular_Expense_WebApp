@@ -11,7 +11,6 @@ export const IncomExpense = () => {
   const expense =
     amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0) *
     -1;
-
   return (
     <div className="inc-exp-container">
       <div>
